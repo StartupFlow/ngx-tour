@@ -8,7 +8,7 @@
     ],
     "paths": {
       "ngx-tour-core": [
-        "dist/ngx-tour-core"
+        "packages/ngx-tour-core"
       ]
     }
   },

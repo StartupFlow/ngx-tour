@@ -14,12 +14,12 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2017", "dom"],
     "paths": {
-      "ngx-tour-core": ["dist/ngx-tour-core"],
-      "ngx-tour-console": ["dist/ngx-tour-console"],
-      "ngx-tour-md-menu": ["dist/ngx-tour-md-menu"],
-      "ngx-tour-ng-bootstrap": ["dist/ngx-tour-ng-bootstrap"],
-      "ngx-tour-ngx-bootstrap": ["dist/ngx-tour-ngx-bootstrap"],
-      "ngx-tour-ngx-popper": ["dist/ngx-tour-ngx-popper"]
+      "ngx-tour-core": ["packages/ngx-tour-core"],
+      "ngx-tour-console": ["packages/ngx-tour-console"],
+      "ngx-tour-md-menu": ["packages/ngx-tour-md-menu"],
+      "ngx-tour-ng-bootstrap": ["packages/ngx-tour-ng-bootstrap"],
+      "ngx-tour-ngx-bootstrap": ["packages/ngx-tour-ngx-bootstrap"],
+      "ngx-tour-ngx-popper": ["packages/ngx-tour-ngx-popper"]
     }
   }
 }
