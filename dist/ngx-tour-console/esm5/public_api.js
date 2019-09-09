@@ -1,0 +1,10 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/*
+ * Public API Surface of ngx-tour-console
+ */
+export { TourModule, TourService, TourState, TourHotkeyListenerComponent } from "ngx-tour-core";
+export { TourConsoleModule, TourAnchorConsoleDirective } from "./lib/console.module";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC10b3VyLWNvbnNvbGUvIiwic291cmNlcyI6WyJwdWJsaWNfYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFJQSxnRkFBYyxlQUFlLENBQUM7QUFDOUIsT0FBTyxFQUNMLGlCQUFpQixFQUNqQiwwQkFBMEIsRUFDM0IsTUFBTSxzQkFBc0IsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygbmd4LXRvdXItY29uc29sZVxuICovXG5cbmV4cG9ydCAqIGZyb20gXCJuZ3gtdG91ci1jb3JlXCI7XG5leHBvcnQge1xuICBUb3VyQ29uc29sZU1vZHVsZSxcbiAgVG91ckFuY2hvckNvbnNvbGVEaXJlY3RpdmVcbn0gZnJvbSBcIi4vbGliL2NvbnNvbGUubW9kdWxlXCI7XG4iXX0=

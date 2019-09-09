@@ -21,7 +21,7 @@ export class TourStepTemplateComponent extends TourHotkeyListenerComponent imple
   @ViewChild('tourStep', { read: TemplateRef, static: true }) public defaultTourStepTemplate: TemplateRef<any>;
 
   @Input()
-  @ContentChild(TemplateRef, /* TODO: add static flag */ {})
+  @ContentChild(TemplateRef, { static: true })
   public stepTemplate: TemplateRef<{ step: IStepOption }>;
 
   constructor(private tourStepTemplateService: TourStepTemplateService, public tourService: NgbTourService) {

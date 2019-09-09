@@ -1,0 +1,12 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+export { TourService, TourNgxBootstrapModule, TourAnchorNgxBootstrapDirective, TourStepTemplateComponent } from './public_api';
+export { NgxbTourService as ɵa } from './lib/ngx-bootstrap-tour.service';
+export { TourAnchorNgxBootstrapPopoverDirective as ɵb } from './lib/tour-anchor.directive';
+export { TourStepTemplateService as ɵc } from './lib/tour-step-template.service';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd4LXRvdXItbmd4LWJvb3RzdHJhcC5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC10b3VyLW5neC1ib290c3RyYXAvIiwic291cmNlcyI6WyJuZ3gtdG91ci1uZ3gtYm9vdHN0cmFwLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFJQSxnSEFBYyxjQUFjLENBQUM7QUFFN0IsT0FBTyxFQUFDLGVBQWUsSUFBSSxFQUFFLEVBQUMsTUFBTSxrQ0FBa0MsQ0FBQztBQUN2RSxPQUFPLEVBQUMsc0NBQXNDLElBQUksRUFBRSxFQUFDLE1BQU0sNkJBQTZCLENBQUM7QUFDekYsT0FBTyxFQUFDLHVCQUF1QixJQUFJLEVBQUUsRUFBQyxNQUFNLGtDQUFrQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBHZW5lcmF0ZWQgYnVuZGxlIGluZGV4LiBEbyBub3QgZWRpdC5cbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL3B1YmxpY19hcGknO1xuXG5leHBvcnQge05neGJUb3VyU2VydmljZSBhcyDJtWF9IGZyb20gJy4vbGliL25neC1ib290c3RyYXAtdG91ci5zZXJ2aWNlJztcbmV4cG9ydCB7VG91ckFuY2hvck5neEJvb3RzdHJhcFBvcG92ZXJEaXJlY3RpdmUgYXMgybVifSBmcm9tICcuL2xpYi90b3VyLWFuY2hvci5kaXJlY3RpdmUnO1xuZXhwb3J0IHtUb3VyU3RlcFRlbXBsYXRlU2VydmljZSBhcyDJtWN9IGZyb20gJy4vbGliL3RvdXItc3RlcC10ZW1wbGF0ZS5zZXJ2aWNlJzsiXX0=

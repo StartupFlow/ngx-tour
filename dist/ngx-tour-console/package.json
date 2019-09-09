@@ -1,0 +1,25 @@
+{
+  "name": "ngx-tour-console",
+  "version": "4.0.1",
+  "repository": "https://github.com/isaacplmann/ngx-tour.git",
+  "author": "Isaac Mann <isaacplmann@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/core": "^7.0.0",
+    "ngx-tour-core": "^4.0.1"
+  },
+  "main": "bundles/ngx-tour-console.umd.js",
+  "module": "fesm5/ngx-tour-console.js",
+  "es2015": "fesm2015/ngx-tour-console.js",
+  "esm5": "esm5/ngx-tour-console.js",
+  "esm2015": "esm2015/ngx-tour-console.js",
+  "fesm5": "fesm5/ngx-tour-console.js",
+  "fesm2015": "fesm2015/ngx-tour-console.js",
+  "typings": "ngx-tour-console.d.ts",
+  "metadata": "ngx-tour-console.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

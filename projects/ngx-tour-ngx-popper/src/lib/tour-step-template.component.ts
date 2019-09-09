@@ -27,7 +27,7 @@ export class TourStepTemplateComponent extends TourHotkeyListenerComponent imple
   @ViewChild(PopperContent, { static: true }) public popperContent: PopperContent;
 
   @Input()
-  @ContentChild(TemplateRef, /* TODO: add static flag */ {})
+  @ContentChild(TemplateRef, { static: true })
   public stepTemplate: TemplateRef<{step: IStepOption}>;
 
   public step: IStepOption = {};
