@@ -18,10 +18,10 @@ import { NgbTourService } from './ng-bootstrap-tour.service';
   `,
 })
 export class TourStepTemplateComponent extends TourHotkeyListenerComponent implements AfterContentInit {
-  @ViewChild('tourStep', { read: TemplateRef }) public defaultTourStepTemplate: TemplateRef<any>;
+  @ViewChild('tourStep', { read: TemplateRef, static: true }) public defaultTourStepTemplate: TemplateRef<any>;
 
   @Input()
-  @ContentChild(TemplateRef)
+  @ContentChild(TemplateRef, /* TODO: add static flag */ {})
   public stepTemplate: TemplateRef<{ step: IStepOption }>;
 
   constructor(private tourStepTemplateService: TourStepTemplateService, public tourService: NgbTourService) {

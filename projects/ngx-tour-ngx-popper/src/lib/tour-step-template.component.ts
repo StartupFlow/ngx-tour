@@ -24,10 +24,10 @@ import { TourStepTemplateService } from './tour-step-template.service';
   `,
 })
 export class TourStepTemplateComponent extends TourHotkeyListenerComponent implements AfterViewInit, AfterContentInit {
-  @ViewChild(PopperContent) public popperContent: PopperContent;
+  @ViewChild(PopperContent, { static: true }) public popperContent: PopperContent;
 
   @Input()
-  @ContentChild(TemplateRef)
+  @ContentChild(TemplateRef, /* TODO: add static flag */ {})
   public stepTemplate: TemplateRef<{step: IStepOption}>;
 
   public step: IStepOption = {};
