@@ -1,6 +1,8 @@
 import { ElementRef, Injectable, Renderer2, RendererFactory2 } from '@angular/core';
 
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class TourBackdropService {
   private renderer: Renderer2;
   private backdropElement: HTMLElement;
